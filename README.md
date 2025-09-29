@@ -15,3 +15,5 @@
 - prompt：最好用英文，中文不稳定，实测Fill可能是效果最好的，可以再优化。
 - generator：随机数种子，加入generator代表固定随机种子，生成结果固定。
 - resize操作：默认的输出结果是一个纵横比1:1的图片，这里做了还原但是较原图还是缩小了，按原图的参数来会变模糊。
+
+Base 开源项目：https://github.com/advimman/lama
