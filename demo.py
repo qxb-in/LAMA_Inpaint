@@ -16,7 +16,7 @@ def box(x1, y1, x2, y2, path):
         "y2": y2,
         "path": path,
     }
-    url = "http://172.70.10.53:8005/box"
+    url = "http://:8005/box"
 
     res = requests.post(url, json=data)
     
