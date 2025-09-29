@@ -3,3 +3,9 @@
 
 在 laptop 端侧实现图像部分抹除与修复，对于 RGBA 图像，取 alpha 通道来判断哪些区
 域被涂抹，使用 dreamshaper-8-inpainting 识别涂抹区域中的相关元素边界，并且基于提示词与背景图生成一个新的区域图像。
+
+实例demo如下：
+
+<img width="1627" height="1294" alt="image" src="https://github.com/user-attachments/assets/4d4e04c3-b663-4ac3-bd42-a45a49e4b43e" />
+
+将原图中的小狗涂抹之后抽取出来，并且用新的图像给填充.
