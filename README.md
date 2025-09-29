@@ -11,7 +11,7 @@
 将原图中的小狗涂抹之后抽取出来，并且用新的图像给填充.
 
 # 调整
-- model ：dreamshaper-8-inpainting。
+- model ：dreamshaper-8-inpainting，edge_sam_3x_encoder.onnx，edge_sam_3x_decoder.onnx
 - strength ：噪声参数，越大与原图的差异越大，经实测是越大越好，默认为0.9。
 - prompt：最好用英文，中文不稳定，实测Fill可能是效果最好的，可以再优化。
 - generator：随机数种子，加入generator代表固定随机种子，生成结果固定。
