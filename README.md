@@ -9,3 +9,9 @@
 <img width="1627" height="1294" alt="image" src="https://github.com/user-attachments/assets/4d4e04c3-b663-4ac3-bd42-a45a49e4b43e" />
 
 将原图中的小狗涂抹之后抽取出来，并且用新的图像给填充.
+
+# 调整
+- strength ：噪声参数，越大与原图的差异越大，经实测是越大越好，默认为0.9。
+- prompt：最好用英文，中文不稳定，实测Fill可能是效果最好的，可以再优化。
+- generator：随机数种子，加入generator代表固定随机种子，生成结果固定。
+- resize操作：默认的输出结果是一个纵横比1:1的图片，这里做了还原但是较原图还是缩小了，按原图的参数来会变模糊。
